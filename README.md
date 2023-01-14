@@ -6,9 +6,10 @@ The goal is to provide enough foundation to reduce the frustration of getting st
 
 - What is Python and why would people learn it
 - Structure: Anaconda, conda, code, code editors (most popular)
-- import fly
 - Examples: from chem, geophysics, geology, and reservior -- pre-primed code-along
-- Running python: in command prompt, from a txt file (.py), in a jupyter notebook 
+- Navigating with the terminal 
+- Running python: in command prompt (shell - python ipython), from a txt file (.py), in a jupyter notebook
+- Code-along language introduction
 - Error reading, using the internets. Print debugging.
 - Code-along example of building up a bit of code (a plot) non-linear and google some things
 - A wee code problem to solve - learning by doing is the best way to learn. Find a wee problem to solve, a calculation, plotting or data handling task. https://automatetheboringstuff.com/  
@@ -24,6 +25,8 @@ The goal is to provide enough foundation to reduce the frustration of getting st
 
 https://github.com/ddempsey/python_for_geoscientists
 
+https://github.com/koldunovn/python_for_geosciences
+
 ***
 # Setup Instructions
 
@@ -35,7 +38,7 @@ To run this tutorial, you will need an environment that contains all of the requ
 
 Download this tutorial from GitHub using the green 'code' button and unzip to somewhere that is easy to find, such as your Documents folder.
  
-Download and instal [Anaconda individual edition](https://www.anaconda.com/products/individual) if you don't already have it. When prompted, accept the default installation settings.
+Download and instal [Anaconda individual edition](https://www.anaconda.com/products/individual) if you don't already have it. When prompted, accept the default installation settings. See this link for more information on installation for [Windows](https://docs.anaconda.com/anaconda/install/windows/) or for [Mac](https://docs.anaconda.com/anaconda/install/mac-os/).
 
 In Windows open the anaconda prompt or in macOS open a terminal. Use the prompt/terminal to navigate to where you have saved this repository (hint: use _cd \<path_to_the_repository\>_ to change directory)
  
@@ -51,13 +54,15 @@ You will see a lot of text scroll past in the the prompt/terminal and may need t
  
     $ jupyter notebook
  
-Now you can open the tutorial notebooks and use them. 
+Jupyter Notebook will open in your default browser as a window. You can use it to open and edit the course material.  
 
 When you are finished with Juypter Notebook, you can close the browser window and go back to the prompt/terminal to kill the process with CTRL + C.
- 
+
 When you come back to the workshop material at a later date, you will probably have to activate the workshop_env environment again before launching Juypter Notebook.
+
+You may choose another IDE (Interactive Development Environment), such as VS Studio Code or Jupyter Lab. More information will be given about these during the workshop. 
  
-**Other useful commands**
+**Other useful Terminal commands**
  
 Print a list of your conda environments
   
