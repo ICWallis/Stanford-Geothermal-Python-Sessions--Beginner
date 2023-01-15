@@ -32,8 +32,13 @@ More advanced participants:
 
 __Download this tutorial__ from GitHub using the green 'code' button and unzip to somewhere on your computer that is easy to find. We recommend using your Documents folder.
 
+https://www.youtube.com/watch?v=FdatS_NKVrM
+
 __Download and install [Anaconda individual edition](https://www.anaconda.com/products/individual)__ if you don't already have it. When prompted, accept the default installation settings. See this link for more information on installation for [Windows](https://docs.anaconda.com/anaconda/install/windows/) or for [Mac](https://docs.anaconda.com/anaconda/install/mac-os/).
 
+Install a package in the Anaconda "base" environment that enables you to use kernels. In Windows open the anaconda prompt or in macOS open a terminal. 
+
+conda install nb_conda_kernel  CHANGE INSTRUCTIONS 
 
 __Create an environment that contains the packages you need to run this tutorial.__ Using python typically involves assembling existing building blocks that are published as packages (sometimes called libraries). An environment is a place to run a python file that has all of the building blocks required to run it (i.e., the requirements). If you have trouble with this step, please register and come along to the help cafe prior to the workshop. 
 
@@ -43,15 +48,17 @@ In the repository folder, you will find an environment.yml file (hint: use _ls_ 
  
     $ conda env create -f environment.yml
  
-This will take a few minutes and will see a lot of text scroll past in the the prompt/terminal. You may need to respond Y then press ENTER at some point. The environment is automatically named workshop_env. Once it has built, we need to activate the environment by executing:
+This will take a few minutes and will see a lot of text scroll past in the the prompt/terminal. You may need to respond y then press ENTER at some point. The environment is automatically named workshop_env. Once it has built, we need to activate the environment by executing:
  
     $ conda activate workshop_env
  
 \(workshop_env\) should now appear on the far left of your current line in the prompt/terminal window.
 
+Refer to [this page](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for mor information on making and managing conda environments. 
+
 __Open the jupyter notebook called 'Code-along.ipynb'.__ Because the previous step put you inside the right environment, you can execute the following command to launch a browser window containing Juypter notebook:
 
-    $ jupyterlab
+    $ jupyter lab
  
 Jupyter Lab will open in your default browser as a window. You can use it to open and edit the course material.
 
