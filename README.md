@@ -1,13 +1,14 @@
 # Stanford Geothermal Python Sessions -- Beginner
 
-## Workshop Goal
+## Workshop Outline
 
 The goal is to provide enough foundation to reduce the frustration of getting started. Learning to code can often feel as futile as picking apart cold spaghetti. A 2 hour python workshop can not cover everything, but we hope to touch on enough that you'll know what to google later. 
 
-- What is Python and why would people learn it?
-- Ecosystem: Anaconda, conda, VS Studio Code, terminal, Git (source control), GitHub (website/community)
-- How to run Python: in command prompt (shell - python ipython), from a txt file (.py), in a jupyter notebook
-- Code along: Introduction to the python language and some key libraries (packages)
+Topics covered:
+- Python and why people use it
+- The Python ecosystem: Anaconda, conda, VS Studio Code, terminal, Git (source control), GitHub (website/community)
+- How to run Python in command prompt (shell - python ipython), from a txt file (.py), and in a jupyter notebook
+- Introduction to the python language and some key libraries (packages)
 - Error reading, debugging, using the internets (blogs, docs, stack overflow, communities).
 
 ***
@@ -42,21 +43,21 @@ In the repository folder, you will find an environment.yml file (hint: use _ls_ 
  
     $ conda env create -f environment.yml
  
-You will see a lot of text scroll past in the the prompt/terminal and may need to respond y + ENTER at some point. The environment is automatically named workshop_env. Once it has built, we need to activate the environment by executing:
+This will take a few minutes and will see a lot of text scroll past in the the prompt/terminal. You may need to respond Y then press ENTER at some point. The environment is automatically named workshop_env. Once it has built, we need to activate the environment by executing:
  
     $ conda activate workshop_env
  
-\(workshop_env\) should now appear on the far left of your current line in the prompt/terminal window. 
+\(workshop_env\) should now appear on the far left of your current line in the prompt/terminal window.
 
 __Open the jupyter notebook called 'Code-along.ipynb'.__ Because the previous step put you inside the right environment, you can execute the following command to launch a browser window containing Juypter notebook:
 
-    $ jupyter notebook
+    $ jupyterlab
  
-Jupyter Notebook will open in your default browser as a window. You can use it to open and edit the course material.  
+Jupyter Lab will open in your default browser as a window. You can use it to open and edit the course material.
 
-__When you are finished__ with Juypter Notebook, you can close the browser window and go back to the prompt/terminal to kill the process with CTRL + C.
+__When you are finished__ with Juypter Lab, you can close the browser window and go back to the prompt/terminal to kill the process with CTRL + C.
 
-When you come back to the workshop material at a later date, you will probably have to activate the workshop_env environment again before launching Juypter Notebook.
+When you come back to the workshop material at a later date, you will probably have to activate the workshop_env environment again before launching Juypter Lab.
  
  
 **Other useful Terminal commands**
