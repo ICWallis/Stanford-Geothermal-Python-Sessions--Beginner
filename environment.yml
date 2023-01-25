@@ -1,23 +1,23 @@
-name: workshop_env
+name: sgw_env
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7.9
-  - jupyter
-  - jupyterlab
-  - ipykernel
-  - matplotlib
-  - numpy
-  - pandas
-  - seaborn
-  - scipy
-  - pip
+  - python=3.9    # Recent stable version of Python
+  - pip           # Used to download and install packages
+  - jupyter       # A simple code editor
+  - jupyterlab    # A slightly less simple code editor
+  - ipykernel     # How the code editor accesses this collection of software packages
+  - numpy         # "Numerical Python" - numerical methods
+  - scipy         # "Scientific Python" - more numerical methods
+  - pandas        # Data wrangling, spreadsheet like
+  - openpyxl      # Needed to open xls files in Pandas
+  - matplotlib    # Primary plotting package
+  - seaborn       # Advanced static plotting package
   - pip:
-    - ipywidgets==7.6.3
-    - jupyterlab-widgets==1.0.0
-    - widgetsnbextension==3.5.1
-    - jdcal==1.4.1
-    - pytz==2021.1
-    - openpyxl==3.0.6
-    - xlrd==2.0.1
+    #- ipywidgets==7.6.3
+    #- jupyterlab-widgets==1.0.0
+    #- widgetsnbextension==3.5.1
+    #- jdcal==1.4.1 # calender calculations
+    #- pytz==2021.1 # timezone calculations
+    #- xlrd==2.0.1 # Used to read xls files
