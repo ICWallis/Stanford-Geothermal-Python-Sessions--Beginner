@@ -1,0 +1,5 @@
+# Items in this file are ignored by source contol (git)
+
+__pycache__/
+/.ipynb_checkpoints
+*.png
