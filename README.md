@@ -2,7 +2,7 @@
 
 ## Workshop Outline
 
-This workshop is designed to reduce frustration of getting started. Learning to code can often feel as futile as picking apart cold spaghetti. We can't cover everything in a two-hour, but we hope to touch on enough that you'll know what to google as you embark on your Python journey. 
+This workshop is designed to reduce frustration of getting started. Learning to code can often feel as futile as picking apart cold spaghetti. We can't cover everything in a short workshop, but I hope to touch on enough that you'll know what to google as you embark on your Python journey. 
 
 Topics covered:
 - What Python is and why (geothermal) people use it
@@ -26,7 +26,7 @@ To use Binder, Click the Binder button below and wait for it to load. The first 
 
 BINDER INSTANCE UNDER CONSTRUCTION  - COME BACK LATER FOR LAUNCH BUTTON :-)
 
-We will run a help session over lunch prior to the workshop for anyone having trouble getting set up. You must register by Wednesday 1 February to attend this. It will be hosted on campus at or near the workshop venue.
+We will run a help session on the Friday prior to the workshop for anyone having trouble getting set up. You must register by Wednesday 1 February to attend this.
 
 __More advanced participants:__
 
@@ -52,7 +52,7 @@ Once you have navigated into the repository folder, you will find an environment
  
     $ conda env create -f environment.yml
  
-This will take a few minutes and will see a lot of text scroll past in the the prompt/terminal. You may need to respond y then press ENTER at some point. The environment is automatically named workshop_env. Once it has built, we need to activate the environment by executing:
+This will take a few minutes and will see a lot of text scroll past in the the prompt/terminal. You may need to respond y then press ENTER at some point. The environment is automatically named sgw_env. Once it has built, we need to activate the environment by executing:
  
     $ conda activate sgw_env
  
