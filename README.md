@@ -2,7 +2,7 @@
 
 ## Workshop Outline
 
-This workshop is designed to reduce frustration of getting started. We can't cover everything in a short workshop, but I hope to touch on enough that you'll know what to google as you embark on your Python journey. 
+This workshop is designed to reduce the frustration of getting started with Python. We can't cover everything in a short workshop, but I hope to touch on enough that you'll know what to google in future. 
 
 Topics covered:
 - What is Python and why (geothermal) people would use it
