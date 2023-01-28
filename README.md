@@ -24,7 +24,7 @@ If you do not have a computer that you can install software on, then you can use
     
 To use Binder, Click the Binder button below and wait for it to load. The first time you do this, Binder can take up to 10 minutes to load, so do this for the first time before coming to the workshop. Click 'show' on the 'Build Logs' bar if you want to watch the Binder environment building. 
 
-BINDER INSTANCE UNDER CONSTRUCTION  - COME BACK LATER FOR LAUNCH BUTTON :-)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ICWallis/Stanford-Geothermal-Python-Sessions--Beginner/main)
 
 We will run a help session on the Friday prior to the workshop for anyone having trouble getting set up. You must register by Wednesday 1 February to attend this.
 
