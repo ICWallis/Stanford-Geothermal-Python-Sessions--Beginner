@@ -1,10 +1,12 @@
+## Some Useful Links
 
+### Recommended tutorials
 
-## Software licenses  
+https://dabeaz-course.github.io/practical-python/ Complete, self-directed course
 
-https://opensource.org/licenses
+https://www.youtube.com/watch?v=ZB7BZMhfPgk Numerical python (NumPy)
 
-https://www.mend.io/resources/blog/open-source-licenses-trends-and-predictions/
+https://www.youtube.com/c/softwareunderground Software Underground
 
 
 ### Books
@@ -17,3 +19,9 @@ Python for Data Science
 
 https://jakevdp.github.io/PythonDataScienceHandbook/
 
+
+## Software licenses  
+
+https://opensource.org/licenses
+
+https://www.mend.io/resources/blog/open-source-licenses-trends-and-predictions/
